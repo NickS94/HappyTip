@@ -14,6 +14,8 @@
 		035CDEB72C20207A00A5AAE7 /* studenttestappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035CDEB62C20207A00A5AAE7 /* studenttestappTests.swift */; };
 		035CDEC12C20207A00A5AAE7 /* studenttestappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035CDEC02C20207A00A5AAE7 /* studenttestappUITests.swift */; };
 		035CDEC32C20207A00A5AAE7 /* studenttestappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035CDEC22C20207A00A5AAE7 /* studenttestappUITestsLaunchTests.swift */; };
+		035CDED72C220C6D00A5AAE7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035CDED62C220C6D00A5AAE7 /* Launch Screen.storyboard */; };
+		035CDED92C2210C900A5AAE7 /* PriceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035CDED82C2210C900A5AAE7 /* PriceCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		035CDEA22C20207900A5AAE7 /* studenttestapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = studenttestapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		035CDEA22C20207900A5AAE7 /* testTipApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTipApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		035CDEA52C20207900A5AAE7 /* studenttestappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studenttestappApp.swift; sourceTree = "<group>"; };
 		035CDEA72C20207900A5AAE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		035CDEA92C20207A00A5AAE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +46,8 @@
 		035CDEBC2C20207A00A5AAE7 /* studenttestappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = studenttestappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		035CDEC02C20207A00A5AAE7 /* studenttestappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studenttestappUITests.swift; sourceTree = "<group>"; };
 		035CDEC22C20207A00A5AAE7 /* studenttestappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studenttestappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		035CDED62C220C6D00A5AAE7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		035CDED82C2210C900A5AAE7 /* PriceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		035CDE992C20207900A5AAE7 = {
 			isa = PBXGroup;
 			children = (
+				035CDED62C220C6D00A5AAE7 /* Launch Screen.storyboard */,
 				035CDEA42C20207900A5AAE7 /* studenttestapp */,
 				035CDEB52C20207A00A5AAE7 /* studenttestappTests */,
 				035CDEBF2C20207A00A5AAE7 /* studenttestappUITests */,
@@ -84,7 +89,7 @@
 		035CDEA32C20207900A5AAE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				035CDEA22C20207900A5AAE7 /* studenttestapp.app */,
+				035CDEA22C20207900A5AAE7 /* testTipApp.app */,
 				035CDEB22C20207A00A5AAE7 /* studenttestappTests.xctest */,
 				035CDEBC2C20207A00A5AAE7 /* studenttestappUITests.xctest */,
 			);
@@ -98,6 +103,7 @@
 				035CDEA72C20207900A5AAE7 /* ContentView.swift */,
 				035CDEA92C20207A00A5AAE7 /* Assets.xcassets */,
 				035CDEAB2C20207A00A5AAE7 /* Preview Content */,
+				035CDED82C2210C900A5AAE7 /* PriceCardView.swift */,
 			);
 			path = studenttestapp;
 			sourceTree = "<group>";
@@ -130,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		035CDEA12C20207900A5AAE7 /* studenttestapp */ = {
+		035CDEA12C20207900A5AAE7 /* testTipApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 035CDEC62C20207A00A5AAE7 /* Build configuration list for PBXNativeTarget "studenttestapp" */;
+			buildConfigurationList = 035CDEC62C20207A00A5AAE7 /* Build configuration list for PBXNativeTarget "testTipApp" */;
 			buildPhases = (
 				035CDE9E2C20207900A5AAE7 /* Sources */,
 				035CDE9F2C20207900A5AAE7 /* Frameworks */,
@@ -142,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = studenttestapp;
+			name = testTipApp;
 			productName = studenttestapp;
-			productReference = 035CDEA22C20207900A5AAE7 /* studenttestapp.app */;
+			productReference = 035CDEA22C20207900A5AAE7 /* testTipApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		035CDEB12C20207A00A5AAE7 /* studenttestappTests */ = {
@@ -219,7 +225,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				035CDEA12C20207900A5AAE7 /* studenttestapp */,
+				035CDEA12C20207900A5AAE7 /* testTipApp */,
 				035CDEB12C20207A00A5AAE7 /* studenttestappTests */,
 				035CDEBB2C20207A00A5AAE7 /* studenttestappUITests */,
 			);
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035CDED72C220C6D00A5AAE7 /* Launch Screen.storyboard in Resources */,
 				035CDEAD2C20207A00A5AAE7 /* Preview Assets.xcassets in Resources */,
 				035CDEAA2C20207A00A5AAE7 /* Assets.xcassets in Resources */,
 			);
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				035CDEA82C20207900A5AAE7 /* ContentView.swift in Sources */,
+				035CDED92C2210C900A5AAE7 /* PriceCardView.swift in Sources */,
 				035CDEA62C20207900A5AAE7 /* studenttestappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		035CDEB42C20207A00A5AAE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 035CDEA12C20207900A5AAE7 /* studenttestapp */;
+			target = 035CDEA12C20207900A5AAE7 /* testTipApp */;
 			targetProxy = 035CDEB32C20207A00A5AAE7 /* PBXContainerItemProxy */;
 		};
 		035CDEBE2C20207A00A5AAE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 035CDEA12C20207900A5AAE7 /* studenttestapp */;
+			target = 035CDEA12C20207900A5AAE7 /* testTipApp */;
 			targetProxy = 035CDEBD2C20207A00A5AAE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -428,6 +436,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,6 +466,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -560,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		035CDEC62C20207A00A5AAE7 /* Build configuration list for PBXNativeTarget "studenttestapp" */ = {
+		035CDEC62C20207A00A5AAE7 /* Build configuration list for PBXNativeTarget "testTipApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				035CDEC72C20207A00A5AAE7 /* Debug */,
