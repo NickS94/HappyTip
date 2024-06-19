@@ -19,6 +19,7 @@ struct PriceCardView: View {
     
     
     
+    
     var body: some View {
         VStack{
             Group{
@@ -34,7 +35,7 @@ struct PriceCardView: View {
             .opacity(0.8)
         }
         .frame(width: 350,height: 170)
-        .background(.appPink)
+        .background(Color.app)
         .cornerRadius(20)
         
     }

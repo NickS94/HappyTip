@@ -22,6 +22,7 @@ struct ContentView: View {
     let range = 1...20
     
     
+    
     let formatter :NumberFormatter = {
         let formatter = NumberFormatter()
         formatter.numberStyle = .decimal
@@ -83,7 +84,7 @@ struct ContentView: View {
             }, label: {
                 Text("Calculate")
                     .frame(width:350,height: 40)
-                    .background(Color.appPink)
+                    .background(Color.app)
                     .foregroundStyle(Color.white)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
             })
